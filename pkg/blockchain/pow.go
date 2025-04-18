@@ -1,9 +1,12 @@
 package blockchain
 
-import "fmt"
+import (
+	"ELSO/pkg/models"
+	"fmt"
+)
 
 type Pow struct {
-	chain []block
+	chain []models.Patient
 }
 
 // Ethereum-like PoW (high latency)
